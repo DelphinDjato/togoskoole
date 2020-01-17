@@ -23,6 +23,9 @@
               <a class="dropdown-item" href="{{ route('call_inscription_form')}}">
                 <i class="fa fa-reply fa-fw"></i>Inscription
               </a>
+              <a class="dropdown-item" href="{{ route('call_teacher_form')}}">
+                <i class="fa fa-reply fa-fw"></i>Enseignant
+              </a>
 
             </div>
         </div>
@@ -38,6 +41,12 @@
         <a class="nav-link" href="pages/forms/basic_elements.html">
           <i class="menu-icon mdi mdi-content-copy"></i>
           <span class="menu-title">Inscriptions</span>
+        </a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="pages/forms/basic_elements.html">
+          <i class="menu-icon mdi mdi-content-copy"></i>
+          <span class="menu-title">Enseignants</span>
         </a>
       </li>
     </ul>

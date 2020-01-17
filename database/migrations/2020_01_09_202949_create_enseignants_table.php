@@ -20,8 +20,8 @@ class CreateEnseignantsTable extends Migration
             $table->string('nom');
             $table->string('prenoms');
             $table->char('sexe');
-            $table->string('pays_naissance');
-            $table->string('ville_naissance');
+            $table->string('date_naissance');
+            $table->string('lieu_naissance');
             $table->string('nationalite');
             $table->string('adresse');
             $table->string('email');
